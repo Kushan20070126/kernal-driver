@@ -1,0 +1,1 @@
+savedcmd_/home/kushan/kernal-driver/basic-driver/ldd.mod := printf '%s\n'   ldd.o | awk '!x[$$0]++ { print("/home/kushan/kernal-driver/basic-driver/"$$0) }' > /home/kushan/kernal-driver/basic-driver/ldd.mod

@@ -1,0 +1,1 @@
+savedcmd_/home/kushan/kernal-driver/basic-driver/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/kushan/kernal-driver/basic-driver/Module.symvers -T /home/kushan/kernal-driver/basic-driver/modules.order -i Module.symvers -e 
