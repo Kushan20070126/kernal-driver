@@ -1,6 +1,5 @@
-# Linux Kernal Drivers form scrach 
+# Linux Kernel Drivers from scratch 
 
 ## this Repo focus on develop moders hardware devices to connect 
 
 
-sudo apt install -y build-essential linux-headers-$(uname -r) kmod
