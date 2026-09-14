@@ -7,12 +7,12 @@ MODULE_DESCRIPTION("A simple LDD module");
 
 
 static int kushan_module_init(void){
-    printk("Hello World form kushan ... \n");
+    printk("Hello World form Basic kernal Module  ... \n");
     return 0;
 }
 
 static void kushan_module_exit(void){
-    printk("Goodbye World form kushan ... \n");
+    printk("Goodbye World form Basic kernal Module  ... \n");
 }
 
 module_init(kushan_module_init);
